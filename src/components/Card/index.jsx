@@ -6,7 +6,7 @@ import Typography from '@mui/material/Typography'
 import { CardActionArea } from '@mui/material'
 
 export default function Card({ img, paragraph, name }) {
-  const imgId = `../public/img/${img}.jpg`
+  const imgId = `/img/${img}.jpg`
 
   return (
     <CardM style={{ background: '#f9f9f9be' }} sx={{ maxWidth: 345 }}>
