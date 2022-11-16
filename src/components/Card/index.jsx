@@ -4,14 +4,14 @@ import CardContent from '@mui/material/CardContent'
 import CardMedia from '@mui/material/CardMedia'
 import Typography from '@mui/material/Typography'
 import { CardActionArea } from '@mui/material'
-
+import Image from '../../assets/1.jpg'
 export default function Card({ img, paragraph, name }) {
-  const imgId = `/src/assets/${img}.jpg`
+  // const imgId = `/src/assets/${img}.jpg`
 
   return (
     <CardM style={{ background: '#f9f9f9be' }} sx={{ maxWidth: 345 }}>
       <CardActionArea>
-        <CardMedia component="img" height="345" image={imgId} alt="❤️🥳" />
+        <CardMedia component="img" height="345" image={Image} alt="❤️🥳" />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
             {name}
