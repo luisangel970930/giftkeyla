@@ -1,9 +1,9 @@
 import Photo1 from '../assets/1.jpg'
-import Photo3 from '../assets/3.jpg'
-import Photo4 from '../assets/4.jpg'
-import Photo5 from '../assets/5.jpg'
-import Photo6 from '../assets/6.jpg'
-import Photo7 from '../assets/7.jpg'
+import Photo3 from '../assets/12.jpg'
+import Photo4 from '../assets/13.jpg'
+import Photo5 from '../assets/14.jpg'
+import Photo6 from '../assets/15.jpg'
+import Photo7 from '../assets/16.jpg'
 
 export const DETAIL = [
   {
