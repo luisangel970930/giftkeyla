@@ -4,7 +4,7 @@ import Button from '../../components/Button'
 import useDetail from '../../hooks/useDetail'
 
 export default function Home() {
-  const { detail } = useDetail()
+  const { detail, handleDetail } = useDetail()
 
   return (
     <>
@@ -14,7 +14,7 @@ export default function Home() {
           name={detail.name}
           paragraph={detail.paragraph}
         />
-        <Button></Button>
+        <Button handleDetail={handleDetail}></Button>
       </div>
     </>
   )
