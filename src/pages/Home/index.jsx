@@ -14,7 +14,10 @@ export default function Home() {
           name={detail.name}
           paragraph={detail.paragraph}
         />
-        <Button handleDetail={handleDetail}></Button>
+        <Button
+          handleDetail={handleDetail}
+          text={detail.id === 7 ? 'END' : 'NEXT'}
+        ></Button>
       </div>
     </>
   )

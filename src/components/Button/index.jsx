@@ -1,10 +1,15 @@
 import './button.css'
 import { MdNavigateNext } from 'react-icons/md'
 
-function Button({ handleDetail }) {
+function Button({ handleDetail, text }) {
   return (
     <button onClick={handleDetail} className="h-button">
-      Next <MdNavigateNext></MdNavigateNext>
+      {text}{' '}
+      {text === 'START' ? (
+        <strong>❤🎉</strong>
+      ) : (
+        <MdNavigateNext></MdNavigateNext>
+      )}
     </button>
   )
 }
