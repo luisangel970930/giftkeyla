@@ -1,4 +1,5 @@
 import Photo1 from '../assets/1.jpg'
+import Photo2 from '../assets/22.jpg'
 import Photo3 from '../assets/12.jpg'
 import Photo4 from '../assets/13.jpg'
 import Photo5 from '../assets/14.jpg'
@@ -9,6 +10,12 @@ export const DETAIL = [
   {
     name: 'luis',
     img: `${Photo1}`,
+    id: 1,
+    paragraph: 'asdasdasdasdasdasd',
+  },
+  {
+    name: 'luis',
+    img: `${Photo2}`,
     id: 1,
     paragraph: 'asdasdasdasdasdasd',
   },
