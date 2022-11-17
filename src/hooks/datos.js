@@ -1,7 +1,9 @@
+import Photo from '../assets/1.jpg'
+
 export const DETAIL = [
   {
     name: 'luis',
-    img: 'https://res.cloudinary.com/ddoecu7re/image/upload/v1668632766/keyla/2019_04_13_19_09_IMG_0007_qjnacc.jpg',
+    img: `${Photo}`,
     id: 1,
     paragraph: 'asdasdasdasdasdasd',
   },
