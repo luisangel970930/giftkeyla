@@ -1,26 +1,26 @@
 export const DETAIL = [
   {
     name: 'luis',
-    img: 'https://user-images.githubusercontent.com/94096364/202326440-2249f488-000e-4fec-93c5-0ffa042ead47.jpg',
+    img: 'https://res.cloudinary.com/ddoecu7re/image/upload/v1668632766/keyla/2019_04_13_19_09_IMG_0007_qjnacc.jpg',
     id: 1,
     paragraph: 'asdasdasdasdasdasd',
   },
   {
     name: 'luisa',
-    img: 'https://user-images.githubusercontent.com/94096364/202327586-8cde6548-0d3b-4a09-be55-e5e17f0fd6ac.jpg',
+    img: 'https://res.cloudinary.com/ddoecu7re/image/upload/v1668632894/keyla/2019_04_27_19_50_IMG_0332_hmgtok.jpg',
     id: 2,
     paragraph: 'asdasdasdasdasdasd',
   },
   {
     name: 'luisf',
     img: 'https://res.cloudinary.com/ddoecu7re/image/upload/v1668632842/keyla/2019_07_06_23_50_IMG_1533_ycalif.jpg',
-    id: 4,
+    id: 3,
     paragraph: 'asdasdasdasdasdasd',
   },
   {
     name: 'luisg',
     img: 'https://res.cloudinary.com/ddoecu7re/image/upload/v1668632761/keyla/2019_06_20_21_10_IMG_1318_wgwju3.jpg',
-    id: 5,
+    id: 4,
     paragraph: 'asdasdasdasdasdasd',
   },
   {
