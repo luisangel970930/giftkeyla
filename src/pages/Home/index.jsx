@@ -1,15 +1,20 @@
 import React, { Suspense } from 'react'
 
 import './home.css'
-import Button from '../../components/Button'
 import useDetail from '../../hooks/useDetail'
 import Spinner from '../../components/Spinner'
+import useRouter from '../../hooks/useRouter'
 
 const Card = React.lazy(() => import('../../components/Card'))
+const Button = React.lazy(() => import('../../components/Button'))
 
 export default function Home({ params }) {
   const { detail, handleDetail } = useDetail({ id: params.id })
+  const { pushLocation } = useRouter()
 
+  if (params.id === undefined || params.id === null) {
+    pushLocation('/')
+  }
   return (
     <>
       {detail !== undefined && (

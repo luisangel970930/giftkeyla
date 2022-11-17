@@ -1,7 +1,7 @@
 import { DETAIL } from './datos'
 import useRouter from './useRouter'
 
-function useDetail({ id = 0 } = {}) {
+function useDetail({ id = 0 }) {
   const { pushLocation } = useRouter()
 
   const handleDetail = () => {
