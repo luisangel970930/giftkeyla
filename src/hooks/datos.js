@@ -14,13 +14,13 @@ export const DETAIL = [
   {
     name: 'luisf',
     img: 'https://res.cloudinary.com/ddoecu7re/image/upload/v1668632842/keyla/2019_07_06_23_50_IMG_1533_ycalif.jpg',
-    id: 3,
+    id: 4,
     paragraph: 'asdasdasdasdasdasd',
   },
   {
     name: 'luisg',
     img: 'https://res.cloudinary.com/ddoecu7re/image/upload/v1668632761/keyla/2019_06_20_21_10_IMG_1318_wgwju3.jpg',
-    id: 4,
+    id: 5,
     paragraph: 'asdasdasdasdasdasd',
   },
   {
