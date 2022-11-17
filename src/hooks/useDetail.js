@@ -4,11 +4,10 @@ import useRouter from './useRouter'
 function useDetail({ id = 0 } = {}) {
   const { pushLocation } = useRouter()
 
-  const handleDetail = evt => {
+  const handleDetail = () => {
     if (Number(id) === 6) {
       pushLocation('/')
     } else {
-      evt.preventDefault()
       pushLocation(`/home/${Number(id) + 1}`)
     }
   }
