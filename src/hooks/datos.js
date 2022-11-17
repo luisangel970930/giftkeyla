@@ -49,4 +49,10 @@ export const DETAIL = [
     id: 7,
     paragraph: 'asdasdasdasdasdasd',
   },
+  {
+    name: 'End',
+    img: `${Photo7}`,
+    id: 7,
+    paragraph: 'asdasdasdasdasdasd',
+  },
 ]
