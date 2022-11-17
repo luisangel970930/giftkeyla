@@ -1,45 +1,51 @@
-import Photo from '../assets/1.jpg'
+import Photo1 from '../assets/1.jpg'
+import Photo2 from '../assets/2.jpg'
+import Photo3 from '../assets/3.jpg'
+import Photo4 from '../assets/4.jpg'
+import Photo5 from '../assets/5.jpg'
+import Photo6 from '../assets/6.jpg'
+import Photo7 from '../assets/7.jpg'
 
 export const DETAIL = [
   {
     name: 'luis',
-    img: `${Photo}`,
+    img: `${Photo1}`,
     id: 1,
     paragraph: 'asdasdasdasdasdasd',
   },
   {
     name: 'luisa',
-    img: 'https://res.cloudinary.com/ddoecu7re/image/upload/v1668632894/keyla/2019_04_27_19_50_IMG_0332_hmgtok.jpg',
+    img: `${Photo2}`,
     id: 2,
     paragraph: 'asdasdasdasdasdasd',
   },
   {
     name: 'luisf',
-    img: 'https://res.cloudinary.com/ddoecu7re/image/upload/v1668632842/keyla/2019_07_06_23_50_IMG_1533_ycalif.jpg',
+    img: `${Photo3}`,
     id: 3,
     paragraph: 'asdasdasdasdasdasd',
   },
   {
     name: 'luisg',
-    img: 'https://res.cloudinary.com/ddoecu7re/image/upload/v1668632761/keyla/2019_06_20_21_10_IMG_1318_wgwju3.jpg',
+    img: `${Photo4}`,
     id: 4,
     paragraph: 'asdasdasdasdasdasd',
   },
   {
     name: 'luish',
-    img: 'https://res.cloudinary.com/ddoecu7re/image/upload/v1668632761/keyla/2019_06_20_21_10_IMG_1318_wgwju3.jpg',
+    img: `${Photo5}`,
     id: 5,
     paragraph: 'asdasdasdasdasdasd',
   },
   {
     name: 'luish',
-    img: 'https://res.cloudinary.com/ddoecu7re/image/upload/v1668631789/keyla/5_obv39m.jpg',
+    img: `${Photo6}`,
     id: 6,
     paragraph: 'asdasdasdasdasdasd',
   },
   {
     name: 'luish',
-    img: 'https://res.cloudinary.com/ddoecu7re/image/upload/v1668631747/keyla/1_qybzg1.jpg',
+    img: `${Photo7}`,
     id: 7,
     paragraph: 'asdasdasdasdasdasd',
   },
