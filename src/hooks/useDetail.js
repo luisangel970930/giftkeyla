@@ -5,7 +5,6 @@ import { DETAIL } from './datos'
 
 function useDetail() {
   const [count, setCount] = useState(0)
-  console.log(count)
 
   const handleDetail = evt => {
     evt.preventDefault()
