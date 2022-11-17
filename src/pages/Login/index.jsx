@@ -25,7 +25,7 @@ function Login() {
         <Button
           text="START"
           handleDetail={() => {
-            pushLocation('/home')
+            pushLocation(`/home/${0}`)
           }}
         ></Button>
       </div>

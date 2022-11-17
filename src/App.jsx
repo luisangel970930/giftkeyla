@@ -6,7 +6,7 @@ import Login from './pages/Login'
 function App() {
   return (
     <Switch>
-      <Route path="/home" component={Home} />
+      <Route path="/home/:id" component={Home} />
       <Route path="/" component={Login} />
       <Route path="/:rest*" component={Login} />
     </Switch>

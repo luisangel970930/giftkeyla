@@ -1,24 +1,19 @@
-// import { useState } from 'react'
-
-import { useState } from 'react'
 import { DETAIL } from './datos'
 import useRouter from './useRouter'
 
-function useDetail() {
+function useDetail({ id = 0 } = {}) {
   const { pushLocation } = useRouter()
-  const [count, setCount] = useState(0)
 
   const handleDetail = evt => {
-    if (count === 6) {
-      setCount(0)
+    if (Number(id) === 6) {
       pushLocation('/')
     } else {
       evt.preventDefault()
-      setCount(count + 1)
+      pushLocation(`/home/${Number(id) + 1}`)
     }
   }
 
-  const detail = DETAIL[count]
+  const detail = DETAIL[id]
 
   return { detail, handleDetail }
 }

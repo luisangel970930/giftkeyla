@@ -7,8 +7,8 @@ import Spinner from '../../components/Spinner'
 
 const Card = React.lazy(() => import('../../components/Card'))
 
-export default function Home() {
-  const { detail, handleDetail } = useDetail()
+export default function Home({ params }) {
+  const { detail, handleDetail } = useDetail({ id: params.id })
 
   return (
     <>
