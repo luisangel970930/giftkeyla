@@ -12,7 +12,7 @@ export const DETAIL = [
     img: `${Photo1}`,
     id: 1,
     paragraph:
-      'Hoy es un día especial es tu cumpleaños y el día en que recuerdo lo especial que eres para mí en el cual recuerdo la de noches que hemos pasados juntos, hemos tuvimos momentos malos o buenos pero lo más especial es que has estado para mí siempre y te lo voy a agradecer en la vida',
+      'Hoy es un día especial es tu cumpleaños y el día en que recuerdo lo especial que eres para mí en el cual recuerdo la de noches que hemos pasados juntos, hemos tenido momentos malos o buenos pero lo más especial es que has estado para mí siempre y te lo voy a agradecer en la vida',
   },
   {
     name: 'Amistad',
@@ -33,7 +33,7 @@ export const DETAIL = [
     img: `${Photo4}`,
     id: 4,
     paragraph:
-      'Te quiero y siempre te querré no hace falta estar diciendo todos los días o estar recordándotelo creo que te lo demostró de alguna forma a mi forma, a pesar de que a veces me veas como que no me importa nada siempre te tengo presente, te quiero y te quiero a mi lado ',
+      'Te quiero y siempre te querré no hace falta estar diciendo todos los días o estar recordándotelo creo que te lo demuestro de alguna forma, a mi forma, a pesar de que a veces me veas como que no me importa nada siempre te tengo presente, te quiero y te quiero a mi lado ',
   },
   {
     name: 'Te amo',
