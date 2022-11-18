@@ -8,45 +8,52 @@ import Photo7 from '../assets/16.jpg'
 
 export const DETAIL = [
   {
-    name: 'luis',
+    name: 'Felicidades 🥳',
     img: `${Photo1}`,
     id: 1,
-    paragraph: 'asdasdasdasdasdasd',
+    paragraph:
+      'Hoy es un día especial es tu cumpleaños y el día en que recuerdo lo especial que eres para mí en el cual recuerdo la de noches que hemos pasados juntos, hemos tuvimos momentos malos o buenos pero lo más especial es que has estado para mí siempre y te lo voy a agradecer en la vida',
   },
   {
-    name: 'luis',
+    name: 'Amistad',
     img: `${Photo2}`,
     id: 1,
-    paragraph: 'asdasdasdasdasdasd',
+    paragraph:
+      'Hemos sido de todo un poco, mayormente estamos en desacuerdos realmente creo que somos diferentes, pero algo si tengo claro es que puedo contar contigo para lo que sea hoy mañana y siempre toda la vida me lo has demostrado siempre has estado ahí para mi ',
   },
   {
-    name: 'luisf',
+    name: 'Coca',
     img: `${Photo3}`,
     id: 3,
-    paragraph: 'asdasdasdasdasdasd',
+    paragraph:
+      'Tenemos tantos momentos juntos imposibles de borrar y no los voy a borrar en la vida porque tu eres para siempre te quiere para siempre y pasa lo que pase siempre seremos los cocos 🥥😂😍 ',
   },
   {
-    name: 'luisg',
+    name: 'Te quiero',
     img: `${Photo4}`,
     id: 4,
-    paragraph: 'asdasdasdasdasdasd',
+    paragraph:
+      'Te quiero y siempre te querré no hace falta estar diciendo todos los días o estar recordándotelo creo que te lo demostró de alguna forma a mi forma, a pesar de que a veces me veas como que no me importa nada siempre te tengo presente, te quiero y te quiero a mi lado ',
   },
   {
-    name: 'luish',
+    name: 'Te amo',
     img: `${Photo5}`,
     id: 5,
-    paragraph: 'asdasdasdasdasdasd',
+    paragraph:
+      'Te amo ,amo todo de ti aunque realmente nunca lo demuestre ,amo tus broncas ,tu griterías ,tu mal carácter ,tu inteligencia ,te amo tal y como eres aunque muchas veces intente cambiarte te amo tal y como eres',
   },
   {
-    name: 'luish',
+    name: 'Agradecido',
     img: `${Photo6}`,
     id: 6,
-    paragraph: 'asdasdasdasdasdasd',
+    paragraph:
+      'Agradecido de tenerte siempre, de que me aguantes, de que te reinicies en segundos, de que me consientas, de que pienses en mí siempre, de que me tengas presente, de que me agás parte de tu familia, de que me guardes un lado en tu futuro, agradecido de ser tu plan para siempre.',
   },
   {
-    name: 'luish',
+    name: 'Detalles',
     img: `${Photo7}`,
     id: 7,
-    paragraph: 'asdasdasdasdasdasd',
+    paragraph:
+      'Has tenido innumerables detalles conmigo y quería que tuvieras uno guardado para siempre en un lugar donde las palabras no se puedan borrar y me complace tener este detalle contigo eres mi mayor regalo Felicidades. Te amo ❤️😍',
   },
 ]
