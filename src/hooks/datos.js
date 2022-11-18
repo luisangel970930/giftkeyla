@@ -26,7 +26,7 @@ export const DETAIL = [
     img: `${Photo3}`,
     id: 3,
     paragraph:
-      'Tenemos tantos momentos juntos imposibles de borrar y no los voy a borrar en la vida porque tu eres para siempre te quiere para siempre y pasa lo que pase siempre seremos los cocos 🥥😂😍 ',
+      'Tenemos tantos momentos juntos imposibles de borrar y no los voy a borrar en la vida porque tu eres para siempre te quiere para siempre y pase lo que pase siempre seremos los cocos 🥥😂😍 ',
   },
   {
     name: 'Te quiero',
